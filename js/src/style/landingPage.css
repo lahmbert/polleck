@@ -1,0 +1,76 @@
+.myBG{
+    height: 100vh;
+    background: url(https://i.ytimg.com/vi/7hF2jDtENHE/maxresdefault.jpg);
+    background-size: cover;
+}
+.intro{
+    height: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.title{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    letter-spacing: 4px;
+}
+.pleck{
+    font-size: 12px;
+    font-weight: 800;
+    font-family: roboto;
+    line-height: 1;
+    text-shadow: .5px .5px black;
+    letter-spacing: 1px;
+}
+.film{
+    font-size: 12px;
+    font-weight: 800;
+    font-family: roboto;
+    line-height: 1;
+    text-shadow: .5px .5px black;
+}
+.brandid{
+    display: flex;
+    flex-direction: row;
+}
+.trending {
+    height: auto;
+    background: url(https://p4.wallpaperbetter.com/wallpaper/510/191/817/movie-doctor-strange-benedict-cumberbatch-hd-wallpaper-preview.jpg);
+    background-size: cover;
+}
+.superhero {
+    height: auto;
+    background: url(https://p4.wallpaperbetter.com/wallpaper/510/191/817/movie-doctor-strange-benedict-cumberbatch-hd-wallpaper-preview.jpg);
+    background-size: cover;
+}
+.movieImage {
+    width: auto;
+    height: 800px;
+    margin: 5px;
+    padding: 5px;
+}
+.movieWrapper {
+    
+}
+.images {
+    height: 380px;
+}
+.cttr{
+    margin: 2px;
+    padding: 5px;
+    height: 405px;
+}
+.overs{
+    text-align: justify;
+}
+
+.mlbb{
+    position: absolute;
+    bottom: 7px;
+    align-items: end;
+}
+.release{
+    text-decoration: none;
+}
