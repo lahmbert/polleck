@@ -23,7 +23,7 @@ const Trending = () => {
                 <Row>
                     {movies.map((result, index) => {
                      return (
-                        <Col md={3} className='movieWrapper'  key={index}>
+                        <Col md={4} className='movieWrapper'  key={index}>
                             <Card className="text-white movieImage">
                                 <Image src={`${process.env.REACT_APP_IMG_URL}/${result.poster_path}`} alt="" className="images" />
                                 <div className="bg-dark">
